@@ -23,6 +23,7 @@ const Header = () => {
                         <li><NavLink className={`mr-8 font-semibold ${({ isActive }) => (isActive ? 'active' : '')}`} to="/">Home</NavLink></li>
                         <li><NavLink className={`mr-8 font-semibold ${({ isActive }) => (isActive ? 'active' : '')}`} to="/books">Books</NavLink></li>
                         <li><NavLink className={`mr-8 font-semibold ${({ isActive }) => (isActive ? 'active' : '')}`} to="/about">About us</NavLink></li>
+                        <li><NavLink className={`mr-8 font-semibold ${({ isActive }) => (isActive ? 'active' : '')}`} to="/chart">Chart</NavLink></li>
                     </ul>
 
                 </div>
@@ -73,6 +74,9 @@ const Header = () => {
                                     </li>
                                     <li>
                                     <NavLink className={`mr-8 font-semibold ${({ isActive }) => (isActive ? 'active' : '')}`} to="/about">About us</NavLink>
+                                    </li>
+                                    <li>
+                                    <li><NavLink className={`mr-8 font-semibold ${({ isActive }) => (isActive ? 'active' : '')}`} to="/chart">Chart</NavLink></li>
                                     </li>
                                 </ul>
                             </nav>
